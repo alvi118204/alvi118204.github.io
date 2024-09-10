@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posttest_1</title>
+</head>
+<body>
+    <form action="sumbmit_form.php" method="post">
+        <table border="2">
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <img src="logo-resto.jpeg" alt="">
+                        <h3><u>Bukti Pemesanan</u></h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Nama Pelayan: <b>Alvito Gabbriel Saputra</b></td>
+                    <td colspan="2"><label for="tgl-psn">Tanggal Pemesanan: <input type="date" id="tgl-psn" name="tgl-psn"></label></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Nama Pemesan: <b>Vicky Ahmad Fernanda</b></td>
+                    <td colspan="2">Alamat Pemesanan: Jl. Merdeka No. 15, Kota Balikpapan</td>
+                </tr>
+                <tr>
+                    <td align="center"><b>Nama Menu</b></td>
+                    <td align="center"><b>Nama Menu</b></td>
+                    <td align="center"><b>Harga Satuan</b></td>
+                    <td align="center"><b>Total Harga</b></td>
+                </tr>
+                <tr>
+                    <td><img src="nasi-goreng.jpeg"><p>Nasi Goreng Spesial</p></td>
+                    <td><input type="number">Porsi</td>
+                    <td>Rp 25.000</td>
+                    <td>Rp 25.000</td>
+                </tr>
+                <tr>
+                    <td><img src="es-teh-manis.jpeg" ><p>Es Teh Manis</p></td>
+                    <td><input type="number">Gelas</td>
+                    <td>Rp 5.000</td>
+                    <td>Rp 5.000</td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><p><b>Total Pesanan</b></p></td>
+                    <td>Rp 30.000</td>
+                </tr>
+                <tr></tr>
+                    <td colspan="3" align="center"><p><b>Pajak</b></p></td>
+                    <td>Rp 2.000</td>
+                </tr>
+                <tr></tr>
+                    <td colspan="3" align="center"><p><b>Total Tagihan</b></p></td>
+                    <td>Rp 32.000</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <label for="pembayaran"><b>Metode Pembayaran:</b></label><br>
+                        <input type="radio" id="BCA" name="pembayaran" value="BCA">Bank BCA
+                        <input type="radio" id="BRI" name="pembayaran" value="BRI">Bank BRI
+                        <input type="radio" id="OVO" name="pembayaran" value="OVO">OVO
+                        <input type="radio" id="GOPAY" name="pembayaran" value="GOPAY">GoPay
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <ul>
+                            <li>Nama: Alvito Gabbriel Saputra</li>
+                            <li>NIM : 2309106132</li>
+                            <li>Praktikum Web : <a href="https://classroom.google.com/c/NzEwMjM1NjcxOTQw/a/NzExMzg1NjcxOTYz/details">Posttest_1</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
