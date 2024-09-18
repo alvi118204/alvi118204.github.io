@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posttest_2</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .receipt {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .header img {
+            max-width: 300px;
+            max-height: 80px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .header h3 {
+            margin: 10px 0 0;
+            font-size: 26px;
+        }
+        .info {
+            margin-bottom: 30px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .info p {
+            margin: 10px 0;
+            color: #333;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .menu-item img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 2px solid #4a90e2;
+        }
+        .menu-item-details {
+            flex-grow: 1;
+        }
+        .menu-item-name {
+            font-weight: bold;
+            color: #4a90e2;
+        }
+        .price {
+            text-align: right;
+            font-weight: bold;
+            color: #28a745;
+        }
+        .total {
+            border-top: 2px dashed #4a90e2;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+        .total p {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .total p:last-child {
+            font-weight: bold;
+            color: #4a90e2;
+            font-size: 22px;
+        }
+        .metode-pembayaran {
+            margin-top: 30px;
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .metode-pembayaran p {
+            margin: 0;
+            font-weight: bold;
+            color: #4a90e2;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #6c757d;
+            text-align: center;
+            border-top: 1px solid #dee2e6;
+            padding-top: 20px;
+        }
+        .footer a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <div class="header">
+            <img src="logo-resto.jpeg" alt="Logo Restoran">
+            <h3>Bukti Pemesanan</h3>
+        </div>
+        
+        <div class="info">
+            <p><strong>Nama Pemesan:</strong> Alvito Gabbriel Saputra</p>
+            <p><strong>Tanggal Pemesanan:</strong> 18 September 2024</p>
+            <p><strong>Alamat Pemesanan:</strong> Jl. Merdeka No. 15, Balikpapan</p>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item">
+                <img src="nasi-goreng.jpeg" alt="Nasi Goreng">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Nasi Goreng Spesial</div>
+                    <div>1 Porsi x Rp 25.000</div>
+                </div>
+                <div class="price">Rp 25.000</div>
+            </div>
+            <div class="menu-item">
+                <img src="es-teh-manis.jpeg" alt="Es Teh Manis">
+                <div class="menu-item-details">
+                    <div class="menu-item-name">Es Teh Manis</div>
+                    <div>1 Gelas x Rp 5.000</div>
+                </div>
+                <div class="price">Rp 5.000</div>
+            </div>
+        </div>
+
+        <div class="total">
+            <p><span>Total Pesanan:</span> <span>Rp 30.000</span></p>
+            <p><span>Pajak:</span> <span>Rp 2.000</span></p>
+            <p><span>Total Tagihan:</span> <span>Rp 32.000</span></p>
+        </div>
+
+        <div class="metode-pembayaran">
+            <p>Metode Pembayaran: Bank BCA</p>
+        </div>
+
+        <div class="footer">
+            <p>Nama: Alvito Gabbriel Saputra</p>
+            <p>NIM: 2309106132</p>
+            <p>Praktikum Web: <a href="https://classroom.google.com/c/NzEwMjM1NjcxOTQw/a/NzA2MTI5MTczNjQz/details">Posttest 2</a></p>
+        </div>
+    </div>
+</body>
+</html>
